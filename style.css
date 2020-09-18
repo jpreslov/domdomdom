@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.square {
+  background-color: black;
+  height: 120px;
+  width: 120px;
+  float: left;
+  flex: wrap;
+  margin: 4px;
+  color: whitesmoke;
+  text-align: center;
+}
+
+.square-text {
+    text-shadow: 3px 3px black;
+    font-size: 60px
+}
